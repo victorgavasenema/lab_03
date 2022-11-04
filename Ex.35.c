@@ -13,7 +13,7 @@ int main()
   printf("Escreva o ano:\n");
   scanf("%d", &ano);
 
-  if (mes == 1 || mes == 3 || mes == 5 || mes == 7 || mes == 10 || mes == 12){
+  if (mes == 1 || mes == 3 || mes == 5 || mes == 7 || mes == 8 || mes == 10 || mes == 12){
     if ( dia <= 31 && dia > 0){
     printf("Opcoes validas: Dia:%d Mes:%d Ano:%d\n", dia, mes, ano);
     }
@@ -22,7 +22,7 @@ int main()
     }
   }
 
-  if (mes == 4 || mes == 5 || mes == 6 || mes == 8 || mes == 9 || mes == 11){
+  if (mes == 4 || mes == 6 || mes == 9 || mes == 11){
     if ( dia <= 30 && dia > 0){
     printf("Opcoes validas: Dia:%d Mes:%d Ano:%d\n", dia, mes, ano);
     }
@@ -55,4 +55,4 @@ int main()
 
   system ("pause");
   return 0;
-}
+} 
